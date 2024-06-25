@@ -1,0 +1,42 @@
+{
+    "intents": [
+      {
+        "tag": "salutations",
+        "patterns": [
+          "bonjour", "salut", "ça va?", "quoi de neuf?", "bonjour", "bonsoir", "matin", "comment ça va?", "comment ça se passe?", "comment allez-vous?", "salutations", "hey", "yo", "coucou", "bonne journée", "bonne soirée", "bonne nuit"
+        ],
+        "responses": ["Bonjour!", "Salut!", "Que puis-je faire pour vous?", "Salut, humain!", "Comment puis-je vous aider aujourd'hui?", "Ravi de vous voir!"]
+      },
+      {
+        "tag": "nom",
+        "patterns": ["Quel est votre nom?", "Pouvez-vous me dire votre nom?", "Comment dois-je vous appeler?", "Qui êtes-vous?", "C'est quoi ton nom?", "Dis-moi ton nom", "Comment t'appelles-tu?", "Quel est votre prénom?", "Comment vous appelez-vous?"],
+        "responses": ["Je suis un chatbot. Mon nom est Chatbot.", "Appelez-moi Chatbot puisque je suis un chatbot.", "Mon nom est Chatbot.", "Vous pouvez m'appeler Chatbot.", "Je suis Chatbot."]
+      },
+      {
+        "tag": "âge",
+        "patterns": ["Quel âge avez-vous?", "Quel est votre âge?", "âge?", "Quel âge as-tu?", "Dis-moi ton âge", "Tu as quel âge?", "Quel est ton âge?", "Quel âge a ton propriétaire?", "Quel est l'âge de ton propriétaire?", "L'âge de ton propriétaire?"],
+        "responses": ["J'ai 25 ans!", "Mon propriétaire a 25 ans!", "J'ai 25 ans.", "Mon propriétaire a 25 ans.", "Je suis âgé de 25 ans.", "Mon propriétaire est âgé de 25 ans."]
+      },
+      {
+        "tag": "au revoir",
+        "patterns": ["au revoir", "à bientôt", "bonne journée", "bonne soirée", "à la prochaine", "adieu", "bye", "ciao", "je dois y aller", "à plus tard"],
+        "responses": ["Au revoir!", "À bientôt!", "Bonne journée!", "Bonne soirée!", "À la prochaine!", "Adieu!", "Bye!", "Ciao!", "À plus tard!"]
+      },
+      {
+        "tag": "merci",
+        "patterns": ["merci", "merci beaucoup", "je te remercie", "c'est gentil", "merci bien", "merci infiniment", "merci pour votre aide", "je vous remercie", "merci beaucoup pour votre aide"],
+        "responses": ["De rien!", "Avec plaisir!", "Je vous en prie!", "Pas de problème!", "C'est un plaisir de vous aider!", "N'hésitez pas si vous avez besoin de plus d'aide!"]
+      },
+      {
+        "tag": "heure",
+        "patterns": ["quelle heure est-il?", "donne-moi l'heure", "tu as l'heure?", "quelle est l'heure actuelle?", "il est quelle heure?", "peux-tu me dire l'heure?", "quelle heure as-tu?", "donnez-moi l'heure", "c'est quelle heure?"],
+        "responses": ["Je ne peux pas vous donner l'heure exacte, mais vous pouvez vérifier sur votre appareil.", "Je suis désolé, mais je ne peux pas consulter l'heure pour vous.", "Je ne peux pas donner l'heure actuelle."]
+      },
+      {
+        "tag": "date",
+        "patterns": ["quelle est la date aujourd'hui?", "quelle date sommes-nous?", "c'est quel jour?", "quelle est la date actuelle?", "peux-tu me dire la date?", "donne-moi la date d'aujourd'hui", "quelle est la date?", "quel jour sommes-nous?"],
+        "responses": ["Je ne peux pas vous donner la date exacte, mais vous pouvez vérifier sur votre appareil.", "Je suis désolé, mais je ne peux pas consulter la date pour vous.", "Je ne peux pas donner la date actuelle."]
+      }
+    ]
+  }
+  

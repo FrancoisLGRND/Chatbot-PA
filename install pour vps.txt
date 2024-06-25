@@ -1,0 +1,10 @@
+sudo apt install python3-pip
+
+sudo apt install python3.10-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install numpy spacy tensorflow
+python -m spacy download fr_core_news_md
+ajouter venv/ .gitignore
+
+tout le path du projet passe de PA2024 à wwww/html
